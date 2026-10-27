@@ -1,0 +1,80 @@
+
+@import url('https://googleapis.com');
+body{
+    margin          : 0px;
+    padding         : 0px;
+    background-color: rgb(250, 245, 240);
+}
+
+*{
+    box-sizing : border-box;
+    font-family: sans-serif;
+
+}
+.container{
+    top         : 0;
+    margin-left : 20px;
+    margin-right: 30px;
+}
+.heading{
+    font-size  : 23px;
+    font-weight: 600;
+}
+.nav-btn{
+    display        : flex;
+    justify-content: space-between;
+}
+.nav-btn nav{
+    
+}
+.nav-btn nav a{
+    font-weight    : 400;
+    font-size      : 12px;
+    color          : rgb(173, 170, 169);
+    text-decoration: none;
+    margin-right   : 1.3vw;
+}
+.nav-btn button{
+    width           : 165px;
+    height          : 26px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius   : 12px;
+    border          : 1px solid black;
+    font-size       : 12px;
+    
+}
+.images{
+    margin-top     : 20px;
+    display        : flex;
+    justify-content: space-between;
+}
+.imgholder{
+    background-color: rgb(250, 245, 240);
+    max-width       : 195px;
+    color           : rgb(0, 0, 0);
+}
+.imgholder h3{
+    font-size  : 15px;
+    font-weight: bold;
+}
+.imgholder div{
+    background-position: center;
+    background-size    : cover;
+    top                : 0px;
+    border-radius      : 16px;
+    background-color   : brown;
+    height             : 275px;
+    width              : 195px;
+}
+.img1{
+    background: url(./img1.jpg);
+}
+.img2{
+    background: url(./img2.jpg);
+}
+.img3{
+    background: url(./img3.jpg);
+}
+.img4{
+    background: url(./img4.jpg);
+}
